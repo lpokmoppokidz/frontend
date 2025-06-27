@@ -1,0 +1,136 @@
+.header {
+  height: 60vh;
+  background-color: wheat;
+  width: 100%;
+  outline: 1px solid black;
+}
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.header .navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+.header .navbar ul li {
+  list-style: none;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  height: auto;
+  padding: 150px;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+}
+.section .left {
+  width: 25%;
+  outline: 1px solid black;
+  height: inherit;
+}
+.section .left .left1 {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  outline: 1px solid black;
+  height: 20%;
+}
+.section .left .left2 {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  outline: 1px solid black;
+  gap: 20px;
+  height: 62.5%;
+}
+.section .middle {
+  width: 50%;
+  outline: 1px solid black;
+  height: inherit;
+}
+.section .right {
+  width: 25%;
+  outline: 1px solid black;
+  height: inherit;
+}
+
+.section .middle {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.section .middle .middle1 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 20px 20px;
+  outline: 1px solid black;
+  flex: 1;
+}
+.section .middle .middle2 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 20px 20px;
+  outline: 1px solid black;
+  flex: 1;
+}
+.section .right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  padding: 0 20px;
+}
+.footer {
+  padding: 40px;
+  border-top: 1px solid black;
+  outline: 1px solid black;
+}
+
+.footer h2 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.review-card {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-card p {
+  margin: 0 0 10px;
+}
+
+.review-card .author {
+  font-size: 0.9em;
+  color: #999;
+}
